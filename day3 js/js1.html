@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js program</title>
+</head>
+<body>
+	<h1 id="a">THIS IS THE HEADING SECTION.</h1>
+	<script type="text/javascript">
+		function abc()
+		{
+			console.log("This is the first page");
+		}
+		abc();
+		function xyz()
+		{	
+			var a=document.getElementById("a").innerHTML;
+			console.log(a);
+		}
+		xyz();
+		function check()
+		{
+			var a=prompt("Give me your name");
+			var b=prompt("what is your age?");
+			if(a=="" || b=="")
+			{
+				console.log("you have not given data");
+				document.write("sorry");
+			//document.write("<br>your age is ");
+			}
+			else{
+			console.log(a);	
+			console.log(b);
+			document.write("your name is "+a);
+			document.write("<br>your age is "+b);
+			}
+		}
+		check();
+		function one(){
+			document.write("<h1>hello</h1>");
+		}
+		one();
+	</script>
+
+</body>
+</html>
